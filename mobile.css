@@ -1,0 +1,106 @@
+ @media screen and (max-width : 600px) {
+
+        .main img {
+
+            display: none;
+        }
+    
+
+        .container{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center ;
+            overflow: hidden;
+            padding-bottom: 3%;
+            
+        }
+
+        .logo-mob{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+                font-size:xx-large;
+                width: 70vw;
+                margin: auto;
+                margin-left: 14%;
+
+        }
+
+        .logo{
+
+            display: none;
+        }
+
+        hr{
+
+            margin: 15px auto;
+        }
+
+        .toggle-btn{
+            display: none;
+        
+        }
+
+        .toggle-btn-mob {
+
+            position: relative;
+            top: 1%;
+
+        }
+
+        .main>p {
+
+            padding-bottom: 20px;
+        }
+
+
+        #checkbox-mob{
+
+            visibility: hidden;
+          }
+   
+
+          #checkbox:checked + .label-mob .toggle-ball-mob{
+
+            transform: translateX(200px);
+            background-color: rgba(107, 107, 224, 0.953);
+          
+          }
+
+
+          .about-text{
+           
+            display: flex;
+            width: 30vw;
+            flex-wrap: wrap;
+
+          }
+
+          .about-text h1{
+            width: 100%;
+            font-size: 20px;
+          }
+
+
+ }
+
+ @media screen and (min-width : 600px) {
+
+    
+    .toggle-btn-mob {
+
+    display: none;
+
+    }
+
+    .logo-mob{
+
+        display: none;
+    }
+
+
+    
+ }

@@ -1,0 +1,126 @@
+
+:root{
+
+    --primary-major : #f6f6f6;
+    --secondary-major : #000000;
+  
+    --primary-text:#000000;
+    --secondary-text:#f6f6f6;
+  
+  
+    --primary-minor: #EEEDED;
+    --seconday-minor: rgba(255,255,255,0.1);
+  
+    --footer: #DBD9DB;
+  }
+  
+  .dark-mode{
+  
+    --primary-major : #000000;
+    --seconday-major : #f6f6f6;
+  
+    --secondary-text:#000000;
+    --primary-text:#f6f6f6;
+  
+    --primary-minor: rgba(255,255,255,0.1);
+    --secondary-minor: #EEEDED;
+    
+    --footer: #DBD9DB;
+  }
+
+  
+#checkbox{
+
+    visibility: hidden;
+  }
+  
+  
+  .label{
+  position: relative;
+  background-color:var(--primary-text);
+  width: 2.6rem;
+  height: 1.5rem;
+  border-radius: 10rem;
+  display: inline-block;
+  border-radius: 1px solid blue;
+  
+  }
+  
+  
+  .toggle-ball{
+  
+    display: inline-block;
+    background-color: var(--secondary-text);
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: .15rem;
+    left: .1rem;
+    transition: all 0.2s linear;
+  
+  }
+  
+  .toggle-btn{
+  
+    position: relative;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  
+  #checkbox{
+  
+    visibility: hidden;
+  }
+  
+  
+  
+  #checkbox:checked + .label .toggle-ball{
+  
+    transform: translateX(1.2vw);
+    background-color: rgba(107, 107, 224, 0.953);
+  
+  }
+
+  /* toggle for mobile */
+
+  .label-mob{
+    position: relative;
+    background-color:var(--primary-text);
+    width: 2.6rem;
+    height: 1.5rem;
+    border-radius: 10rem;
+    display: inline-block;
+    
+    }
+    
+    
+    .toggle-ball-mob{
+    
+      display: inline-block;
+      background-color: var(--secondary-text);
+      width: 1.2rem;
+      height: 1.2rem;
+      border-radius: 50%;
+      position: absolute;
+      top: .15rem;
+      left: .1rem;
+      transition: all 0.2s linear;
+    
+    }
+    
+    .toggle-btn-mob{
+    
+      position: relative;
+      
+      margin-right: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        
+    
+    }
